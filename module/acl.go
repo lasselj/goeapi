@@ -37,7 +37,7 @@ import (
 	"regexp"
 	"strconv"
 
-	"github.com/aristanetworks/goeapi"
+	"github.com/lasselj/goeapi"
 )
 
 // AclEntry represents a parsed Acl entry of the form

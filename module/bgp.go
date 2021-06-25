@@ -33,11 +33,11 @@
 package module
 
 import (
+	"github.com/lasselj/goeapi"
 	"net"
 	"regexp"
 	"strconv"
 
-	"github.com/aristanetworks/goeapi"
 )
 
 // BgpNetworkEntry represents a BGP network config entry

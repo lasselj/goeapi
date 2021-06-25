@@ -6,8 +6,8 @@ import (
 	"io"
 	"os"
 	"strings"
+	"github.com/lasselj/goeapi"
 
-	"github.com/aristanetworks/goeapi"
 )
 
 type DummyConnection struct {

@@ -38,7 +38,7 @@
 
 package module
 
-import "github.com/aristanetworks/goeapi"
+import "github.com/lasselj/goeapi"
 
 // AbstractBaseEntity object for all resources to derive from
 //

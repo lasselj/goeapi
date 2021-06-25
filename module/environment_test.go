@@ -35,7 +35,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/aristanetworks/goeapi"
+	"github.com/lasselj/goeapi"
 )
 
 func TestShowEnvironmentPower_UnitTest(t *testing.T) {

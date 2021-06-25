@@ -36,7 +36,7 @@ import (
 	"regexp"
 	"strconv"
 
-	"github.com/aristanetworks/goeapi"
+	"github.com/lasselj/goeapi"
 )
 
 // GlobalMlagConfig represents a parsed Global Mlag entry

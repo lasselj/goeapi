@@ -34,12 +34,12 @@ package module
 import (
 	"errors"
 	"fmt"
+	"github.com/lasselj/goeapi"
 	"regexp"
 	"strconv"
 	"strings"
 	"testing"
 
-	"github.com/aristanetworks/goeapi"
 )
 
 /**

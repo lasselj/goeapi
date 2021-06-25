@@ -3,7 +3,7 @@ package module
 import (
 	"testing"
 
-	"github.com/aristanetworks/goeapi"
+	"github.com/lasselj/goeapi"
 )
 
 func TestShowInterfacesSwitchport_UnitTest(t *testing.T) {

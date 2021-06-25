@@ -343,7 +343,7 @@ func (n *Node) RunCommands(commands []string,
 	if n.enablePasswd != "" {
 		cmds = n.prependEnableSequence(commands)
 	} else {
-		commands = append([]string{"enable"}, commands...)
+		//commands = append([]string{"enable"}, commands...)
 		cmds = cmdsToInterface(commands)
 	}
 
@@ -352,7 +352,9 @@ func (n *Node) RunCommands(commands []string,
 		return nil, err
 	}
 	// pop the result for enable off the result list
-	result.Result = append(result.Result[:0], result.Result[1:]...)
+	if n.enablePasswd != "" {
+	  result.Result = append(result.Result[:0], result.Result[1:]...)
+	}
 	return result, err
 }
 

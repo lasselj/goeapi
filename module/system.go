@@ -36,7 +36,7 @@ import (
 	"regexp"
 	"strconv"
 
-	"github.com/aristanetworks/goeapi"
+	"github.com/lasselj/goeapi"
 )
 
 // SystemEntity provides a configuration resource for System

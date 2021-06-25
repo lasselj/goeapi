@@ -38,7 +38,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/aristanetworks/goeapi"
+	"github.com/lasselj/goeapi"
 )
 
 // Acl

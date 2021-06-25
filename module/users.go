@@ -38,7 +38,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/aristanetworks/goeapi"
+	"github.com/lasselj/goeapi"
 )
 
 // defaultEncryption

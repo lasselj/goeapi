@@ -1,9 +1,9 @@
 package module
 
 import (
+	"github.com/lasselj/goeapi"
 	"testing"
 
-	"github.com/aristanetworks/goeapi"
 )
 
 func TestShowARP_UnitTest(t *testing.T) {

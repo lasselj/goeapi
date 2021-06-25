@@ -36,7 +36,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/aristanetworks/goeapi"
+	"github.com/lasselj/goeapi"
 )
 
 // SwitchPortConfig represents a parsed SwitchPort entry

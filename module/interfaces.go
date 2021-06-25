@@ -37,7 +37,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/aristanetworks/goeapi"
+	"github.com/lasselj/goeapi"
 )
 
 var validInterfaces = map[string]bool{

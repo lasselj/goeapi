@@ -241,12 +241,13 @@ func (handle *EapiReqHandle) Call() error {
 			"cmd":   "enable",
 			"input": handle.node.enablePasswd,
 		}
+		tmpSlice := []commandBlock{{command: cmd,
+			EapiCommand: nil}}
+		handle.eapiCommands = append(tmpSlice, handle.eapiCommands...)
 	} else {
-		cmd = "enable"
+		//cmd = "enable"
 	}
-	tmpSlice := []commandBlock{{command: cmd,
-		EapiCommand: nil}}
-	handle.eapiCommands = append(tmpSlice, handle.eapiCommands...)
+
 
 	commands := handle.getAllCommands()
 
